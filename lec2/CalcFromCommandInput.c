@@ -10,10 +10,10 @@ int main(void){
 	char input[CHARBUFF]; //標準入力を格納する変数．
 	char delimiter[]=":, "; // ここで区切り文字を指定．
 	char *splitted_p; // strtok()の戻り値であるアドレスを格納する変数．
-	int elem_num,sum,ave; //分割後の個数，合計値，平均値
+	int elem_num, sum, ave; //分割後の個数，合計値，平均値
 
 	while(1){
-		elem_num=0,sum=0,ave=0;
+		elem_num=0, sum=0, ave=0;
 
 		printf("Input numbers: ");
 		//scanf("%s",input); //これでは空白を読み込めない！！空白が\0になりそこで入力の終わりになってしまう（入力の末端にも\0が自動追記される）．
@@ -26,7 +26,7 @@ int main(void){
 			break;
 		}
 
-		// 数字以外が含まれていないかどうか．
+		// 数字・指定の区切り文字以外が含まれていないかどうか．
 		if(!isIntArray(input,delimiter)){
 			printf("IOERROR: Input only numbers. Ex)1,2,3\n");
 			break;
