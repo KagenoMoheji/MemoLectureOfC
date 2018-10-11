@@ -37,6 +37,9 @@ int main(void){
 }
 
 
+/*
+単語の数をカウントする．
+*/
 int wordCount(char* input){
     int cnt = 0;
     while(*input != '\0'){
