@@ -5,7 +5,7 @@
 #define ALPHACNT 26
 
 int wordCount(char*);
-int countCharArray(char*);
+// int countCharArray(char*);
 void countChars(char*, int*, char*);
 int find(char, char*);
 void sortChars(char*, int*);
