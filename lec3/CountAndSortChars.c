@@ -4,6 +4,7 @@
 #define CHARBUFF 256
 #define ALPHACNT 26
 
+int wordCount(char*);
 int countCharArray(char*);
 void countChars(char*, int*, char*);
 int find(char, char*);
@@ -18,8 +19,11 @@ int main(void){
     fgets(input, CHARBUFF, stdin);
     input[strlen(input)-1] = '\0';
 
+    // 単語のカウント
+    int wordscnt = wordCount(input);
+    // アルファベットごとの出現回数のカウント
     countChars(alphas, cnts, input);
-
+    // 出現回数順，アルファベット順にソート
     sortChars(alphas, cnts);
 
     // 出力
@@ -27,8 +31,18 @@ int main(void){
     for(i=0; i<strlen(alphas); i++){
         printf("%c(%c): %d\n", alphas[i], toupper(alphas[i]), cnts[i]);
     }
+    printf("Word count: %d\n", wordscnt);
 
     return 0;
+}
+
+
+int wordCount(char* input){
+    int cnt = 0;
+    while(*input != '\0'){
+        if(*input++ == ' ') cnt++;
+    }
+    return cnt+1;
 }
 
 
