@@ -35,6 +35,7 @@ Set the 3rd coordinate like '(13,2)': (52,33)
 ```
 ### 実行例(入力における数値判定エラー)
 ```
+$ ./a.out
 Set the 1st coordinate like '(13,2)': (3,f)
 Set the 2nd coordinate like '(13,2)': (s,3)
 Input is not Integer, or not Correct.
