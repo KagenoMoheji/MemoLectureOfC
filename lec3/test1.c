@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h> // atoi(), abs()
-//#include <ctype.h> // isdigit()
+#include <stdlib.h> // abs()
 #define CHARBUFF 256
 
 int main(void){
