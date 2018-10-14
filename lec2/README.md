@@ -1,4 +1,4 @@
-## 課題2
+## 課題2(CalcFromCommandInput.c，CalcFromCommandInputSimple.c)
 ### 問題文
 任意の個数の文字列を入力すると、その合計と平均を表示するプログラムを作ってください。
 - 条件
