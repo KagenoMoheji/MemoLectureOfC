@@ -12,12 +12,14 @@ int main(void){
 
     int i, coordinateIndex = 0;
     for(i=0; i<3; i++){
+        // 何個目の座標かの表示変更
         if(i==1){
             sprintf(strCounter,"2nd");
         }else if(i==2){
             sprintf(strCounter,"3rd");
         }
 
+        // 入力
         printf("Set the %s coordinate like '(13,2)': ", strCounter);
         fgets(input, CHARBUFF, stdin);
 
@@ -37,10 +39,12 @@ int main(void){
     }
 
     if(!errFlag){
+        // 計算
         int gX = (x[0]+x[1]+x[2])/3;
         int gY = (y[0]+y[1]+y[2])/3;
         int s = abs(((x[0]-x[2])*(y[1]-y[2])-(x[1]-x[2])*(y[0]-y[2])))/2;
 
+        // 出力
         printf("(%d,%d), (%d,%d), (%d,%d)について，\n", x[0], y[0], x[1], y[1], x[2], y[2]);
         printf("重心: (%d, %d)\n", gX, gY);
         printf("面積: %d\n", s);
