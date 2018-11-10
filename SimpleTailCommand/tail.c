@@ -6,7 +6,13 @@
 
 int strlen2break(char*);
 
-
+/*
+[参考]
+●コマンドライン引数
+http://www.wakhok.ac.jp/~kanayama/C/02/node186.html
+●fseek()
+http://www9.plala.or.jp/sgwr-t/lib/fseek.html
+*/
 int main(int cinLen, char *cinStr[]){
 	FILE *fp;
 	if((fp= fopen(cinStr[1], "r"))==NULL){ // ファイルが見つからなかった場合
