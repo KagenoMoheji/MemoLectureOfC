@@ -13,7 +13,7 @@ typedef struct{
 void sortRecordsByScore(Record*, int);
 
 int main(void){
-	FILE *fp = fopen("kadai7.txt", "r");
+	FILE *fp = fopen("Lesson07.txt", "r");
 	if(fp==NULL){
 		printf("Can't found file\n");
 		return EXIT_FAILURE;
