@@ -9,5 +9,7 @@ with multi-byte-characters.
 But we should keep a rule 
 that we should add a break 
 at the last line.
-ただし，最後の行には改行を加えておくという
-ルールを守っておく必要があります．
+ただし，最後の行には改行を加えておく，
+コマンド引数1つ目に読み込みファイル，2つ目以降にオプションとする，
+オプションについては「-」と入力値の間にスペースを置く，
+といったルールを守っておく必要があります．
