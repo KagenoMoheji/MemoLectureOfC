@@ -42,7 +42,7 @@ void countCharWord(FILE *fp, Counters *cts){
 
 	while((fc=fgetc(fp)) != EOF){ // 1文字ずつ調べる
         //printf("%c",fc);
-		if(fc=='\n' || fc==',' || fc=='.')　continue;
+        if(fc=='\n' || fc==',' || fc=='.')　continue;
 
         if(fc==' '){
             wordNum++;
