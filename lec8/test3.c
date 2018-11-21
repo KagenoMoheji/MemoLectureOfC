@@ -43,7 +43,7 @@ int main(void){
 	*/
 	int i;
 	for(i=0; i<rowCnt; i++){
-		printf("%s %.2lf\n", (sd+i)->name, (sd+i)->total);
+		printf("%s %.2lf\n", sd[i].name, sd[i].total);
 	}
 
 	return 0;
