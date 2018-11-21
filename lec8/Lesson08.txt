@@ -1,0 +1,12 @@
+Name,Country,Short,Free
+Phillip Harris,Germany,58.99,123.67
+Andrei Olegovich Lazukin,Russia,82.54,135.68
+Alexei Dmitrievich Krasnozhon,America,74.05,136.98
+JunHwan Cha,Korea,82.82,160.37
+Valtter Benjamin Virtanen,Finland,48.16,106.58
+Michal Brezina,Czech,93.31,164.67
+Boyang Jin,China,85.97,141.31
+Keiji Tanaka,Japan,80.60,126.22
+Yuzuru Hanyu,Japan,106.69,190.43
+Alexei Yurevich Bychenko,Israel,73.44,128.89
+Mikhail Sergeyevich Kolyada,Russia,81.76,157.03
