@@ -54,7 +54,6 @@ int main(void){
 		printf("接続失敗\n");
 	}
 
-	
 	close(sock);
 
 	return 0;
