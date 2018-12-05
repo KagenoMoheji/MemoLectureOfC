@@ -21,7 +21,7 @@ int main(void){
 	/*
 	https://edu.clipper.co.jp/pg-2-56.html
 	*/
-	while(fscanf(fp, "%*[^,],%*[^,],%lf,%lf", &(shortScore), &(freeScore)) != EOF){
+	while(fscanf(fp, "%*[^,],%*[^,],%lf,%lf\n", &(shortScore), &(freeScore)) != EOF){
 		shortSum += shortScore;
 		freeSum += freeScore;
 		rowCnt++;
