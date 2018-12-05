@@ -29,6 +29,8 @@ int main(void){
     */
     printf("%d,%d\n", cts.charNum, cts.wordNum);
 
+    fclose(fp);
+
     return 0;
 }
 

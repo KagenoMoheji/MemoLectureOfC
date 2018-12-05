@@ -29,5 +29,7 @@ int main(void){
 
 	printf("Short = %.2f\nFree = %.2f\n", shortSum/rowCnt, freeSum/rowCnt);
 
+	fclose(fp);
+
 	return 0;
 }

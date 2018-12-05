@@ -67,6 +67,8 @@ int main(void){
     */
     printf("%.1f,%.1f\n", sumA/fi.rowNum, sumB/fi.rowNum);
 
+    fclose(fp);
+
     return 0;
 }
 

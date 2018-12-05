@@ -46,6 +46,8 @@ int main(void){
 		printf("%s %.2lf\n", sd[i].name, sd[i].total);
 	}
 
+	fclose(fp);
+
 	return 0;
 }
 
